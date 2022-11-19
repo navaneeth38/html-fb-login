@@ -1,0 +1,120 @@
+
+
+.header {
+  background: #3b5998;
+  width: 101%;
+  height: 85px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 50%;
+    padding-top: 30px;
+    float: left;
+}
+.login{
+    width: 50%;
+    float: right;
+    
+}
+.logo-text{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: 110px; 
+}
+.login-label{
+    color: white;
+    font-size: 11px;
+}
+.login-controls{
+    margin-left: 115px;
+    margin-top: 8px;
+    
+}
+.forgot{
+    color: skyblue;
+    text-decoration: none;
+    font-size: small;
+}
+.butt{
+    background-color: rgba(48, 87, 146, 0.979); 
+    border:1px solid black; 
+    color: white; 
+    cursor: pointer;
+}
+.butt:hover{
+    background: rgb(36, 36, 46);
+}
+.left-section{
+    width: 40%;
+    float: left;
+    padding-left: 110px;
+    padding-top: 15px;
+}
+.right-section{
+    width: 600px;
+    float: right;
+    padding-left: 40px;
+
+    
+}
+.main-body{
+    background: linear-gradient(white,rgb(183, 199, 204));
+    height: 500px;
+    width: 102%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph{
+    font-weight: bold;
+    font-size: 19px;
+    
+}
+.image{
+    width: 560px;
+    height: 270px;
+}
+.head{
+    padding-top: 10px;
+    line-height: 15px;
+}
+.signin{
+    color: gray ;
+    border-color: silver;
+    height: 24px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 15px;
+    border-style: solid;
+}
+.birth{
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:550;
+}
+.drop{
+    padding-top: 8px;
+    border-radius: 5px;
+    border-color: gray;
+}
+.gend{
+    font-size: 16px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signup{
+    width: 144px;
+    height: 30px;
+    background-color: green;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: solid;
+    font-size: 16px;
+    font-weight: 550;
+    color: rgba(235, 227, 195, 0.925);
+}
+.login-label::after{
+    content: "*";
+    color: rgb(235, 84, 84);
+}

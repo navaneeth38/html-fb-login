@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylelogin.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+            <a class="logo-text" href="http://www.facebook.com">facebook</a>
+        </div>
+        <div class="login">
+            <form>
+            <table class="login-controls">
+                <tr>
+                    <td><label class="login-label" for="email">Email or Mobile</label></td>
+                    <td><label class="login-label" for="password">&nbsp;&nbsp;Password</label></td>
+                </tr>
+                <tr>
+                    <td><input style="border-radius: 4px; border-style: solid;" id="email" type="text"/></td>
+                    <td><input style="border-radius: 4px;border-style: solid;" id="password" type="password"/></td>
+                    <td><button style="border-radius: 4px;border-style: solid;" class="butt">Login</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a class="forgot" href=login.html>&nbsp;&nbsp;Forgot password?</a></td>
+                    
+                </tr>
+            </table>
+            </form>
+        </div>
+      </div>
+        <div class="main-body">
+            <div class="left-section">
+               <p class="paragraph">Facebook helps you connect and friends and share with the people in your life.</p>
+                <img class="image" src="fb-connection.jpg" alt="" />
+            </div>
+            <div class="right-section">
+              <div class="head"><h1 style="font-size: 32px;">Create an account</h1>
+              <h4>It's quick and easy.</h4>
+              </div>
+            
+              <form>
+                    <input class="signin" type="text" placeholder="First name"/>
+                    &nbsp;<input class="signin" type="text" placeholder="Surname"/><br><br>
+                    <input  style="width: 420px;" class="signin" type="text" placeholder="Mobile number or email address"/><br><br>
+                    <input style="width: 420px;" class="signin" type="password" placeholder="New password"/>
+                    <br><br>
+                    <label class="birth">Birthday</label>
+                    <div class="drop">
+                    <select id="day" name="dd"></select>
+                    <select id="month" name="mm"></select>
+                    <select id="year" name="yy"></select>
+                    </div><br>
+                    <div class="gend"><label style="color:gray">Gender</label><br><br>
+                      <input type="radio" name="female"/>
+                      <label>Female</label>
+                      <input type="radio" name="male"/>
+                      <label>Male</label>
+                      <input type="radio" name="others"/>
+                      <label>Others</label>
+                    </div><br><br>
+                    <div>
+                      <button class="signup">Sign Up</button>
+                    </div>
+                </form>
+
+            </div>
+      </div>
+    </div>
+  </body>
+</html>
